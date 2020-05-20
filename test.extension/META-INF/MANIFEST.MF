@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Extension
+Bundle-SymbolicName: test.extension;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Automatic-Module-Name: test.extension
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Require-Bundle: org.eclipse.xtext
+Export-Package: test.extension

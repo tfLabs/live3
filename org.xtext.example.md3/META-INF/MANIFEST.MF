@@ -1,0 +1,30 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.xtext.example.md3
+Bundle-ManifestVersion: 2
+Bundle-Name: org.xtext.example.md3
+Bundle-Vendor: My Company
+Bundle-Version: 1.0.0.qualifier
+Bundle-SymbolicName: org.xtext.example.md3; singleton:=true
+Bundle-ActivationPolicy: lazy
+Require-Bundle: org.eclipse.xtext,
+ org.eclipse.xtext.xbase,
+ org.eclipse.equinox.common;bundle-version="3.5.0",
+ org.eclipse.emf.ecore,
+ org.eclipse.xtext.xbase.lib;bundle-version="2.14.0",
+ org.eclipse.xtext.util,
+ org.eclipse.emf.common,
+ org.antlr.runtime;bundle-version="[3.2.0,3.2.1)",
+ test.extension
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Export-Package: org.xtext.example.mydsl2.services,
+ org.xtext.example.mydsl2,
+ org.xtext.example.mydsl2.md3,
+ org.xtext.example.mydsl2.generator,
+ org.xtext.example.mydsl2.serializer,
+ org.xtext.example.mydsl2.parser.antlr,
+ org.xtext.example.mydsl2.validation,
+ org.xtext.example.mydsl2.md3.impl,
+ org.xtext.example.mydsl2.parser.antlr.internal,
+ org.xtext.example.mydsl2.md3.util,
+ org.xtext.example.mydsl2.scoping
+Import-Package: org.apache.log4j

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="windows-31j"?>
+<?eclipse version="3.0"?>
+<plugin>
+	<extension point="org.eclipse.emf.ecore.generated_package">
+		<package 
+			uri = "http://www.xtext.org/example/mydsl/Md2"
+			class = "org.xtext.example.mydsl.md2.Md2Package"
+			genModel = "model/generated/Md2.genmodel" />
+	</extension>
+ <extension
+       point="test.extension.test">
+    <contentGenerator
+          class="org.xtext.example.mydsl.generator.Md2ContentsGenerator"
+          language="org.xtext.example.mydsl.Md2">
+    </contentGenerator>
+ </extension>
+</plugin>
